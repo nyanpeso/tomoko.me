@@ -87,6 +87,10 @@ body {
     opacity: 0;
 }
 
+p {
+    font-family: 'poppins', sans-serif;
+}
+
 .body-visible {
     opacity: 1;
     -moz-transition: opacity 700ms;
@@ -275,6 +279,7 @@ img {
     -webkit-transition: opacity 0.2s ease-out, visibility 0s 0.2s;
     -o-transition: opacity 0.2s ease-out, visibility 0s 0.2s;
     transition: opacity 0.2s ease-out, visibility 0s 0.2s;
+    height: 100px;
 }
 
 .header {
@@ -727,46 +732,6 @@ only screen and (min-device-pixel-ratio: 2) {
     color: #666
 }
 
-#home:after {
-  content: '';
-  position: fixed;
-  top: 75px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image:url(/static/images/hello.png);
-  background-position:center;
-  background-repeat: no-repeat;
-}
-
-#about:before {
-  content: '';
-  position: absolute;
-  top: 2203px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image:url(/static/images/white.png);
-  background-position:center;
-  background-repeat: repeat;
-}
-
-/*#footer:before {
-  content: '';
-  position: absolute;
-  top: 2300px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image:url(/static/images/asanoha-400px.png);
-  background-position:center;
-  background-repeat: repeat;
-}*/
-
-
-div.team-col h2{
-    margin-top: 10px;
-}
 
 /* ===[ Showcase Styles ]===================================================== */
 
@@ -4368,12 +4333,13 @@ img.svg-logo {
     width: auto;
     position: fixed;
     top: 20%;
-    left: 40%;
+    left: 30%;
+    bottom: 50%;
     z-index: 900;
     font-size: 9em;
     margin-left: -1.7em;
     pointer-events: none;
-    max-width: 700px;
+    max-width: 1000px;
     height: auto;
     z-index: 999;
     display: block;
