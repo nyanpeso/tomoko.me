@@ -814,6 +814,14 @@ only screen and (min-device-pixel-ratio: 2) {
     padding: 15px 10px 20px 10px;
 }
 
+h4 .category{
+  font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+    font-size: 24px;
+    display: block;
+    background: #555;  
+}
+
 .showcase-title h2 a {
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
@@ -5982,3 +5990,4 @@ a.project__link.home3 img {
         display: block;
     }
 }
+
